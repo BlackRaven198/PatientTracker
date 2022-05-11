@@ -1,10 +1,49 @@
 
-
+body {
+  background-color: #F9F7F7;
+  border: 5px solid blueviolet;
+  
+}
 #placeholder-txt{
     opacity: 0.2;
     color: #888;
 }
 
 #title {
-    color: blue;
+    color:#112D4E;
 }
+
+#timer{
+    background-color: chartreuse;
+    display: inline;
+    width: 5px;
+    border: 2px solid; color:  black;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+
+/* Color transition for Wait Timmer */
+@keyframes timer {
+    0% {
+      background-color: green;
+    }
+    25% {
+        background-color: greenyellow;
+      }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+      background-color: orange;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+   
+  .timer {
+    animation: timer 20s forwards;
+    width: 100px;
+    height: 100px;
+  }

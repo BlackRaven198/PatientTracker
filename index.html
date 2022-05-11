@@ -12,7 +12,7 @@
   
     <section>
         <input type="text" placeholder="   Name">
-        <input type="text" placeholder="   DOB">
+        <input type="date" id="birthday" name="birthday">
 
        
         <select name="Office Name"> 
@@ -27,13 +27,13 @@
             
             
         </select>
-        <p style=" display:inline; width: 20px; border: 2px solid; color:  black; opacity: .5;">Wait Time</p>
+        <div id="timer" class="timer">
+            <p id="wait-timer" style=" display: inline; opacity: .5;">Wait Time</p>
+        </div> 
+       
 
-            <label>Received <input type="checkbox"></label>
-            <label>Completed <input type="checkbox"></label>
-
-            <!-- <input type="checkbox">
-            <input type="checkbox"> -->
+            <label id="received-box">Received <input type="checkbox"></label>
+            <label id="completed-box">Completed <input type="checkbox"></label>
 
         
     </section>
