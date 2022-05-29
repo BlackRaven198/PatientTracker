@@ -11,7 +11,34 @@
     <h1 id="title">Patient Tracker</h1>
   
     <section>
-        <input type="text" placeholder="   Name">
+        <input id="name-input" type="text" placeholder="   Name">
+        <input type="date" id="birthday" name="birthday">
+
+        <select name="Office Name" onchange="startTimer()"> 
+
+            <option selected value="Choose" id="placeholder-txt"> Origin</option>
+            <option value="Ranu">Ranu's</option>
+            <option value="Ibarra">Ibarra's</option> 
+            <option value="CMC">Children's Clinic</option> 
+            <option value="Bautista">Bautista's</option> 
+            <option value="Dentist">Ocean Dental</option>
+            <option value="Other">Other</option> 
+            
+        </select>
+
+        <div id="timer-btn-style-1"  >
+            <p id="wait-timer" style=" display: inline; opacity: .5;">Wait Time</p>
+        </div> 
+       
+
+            <label id="received-box">Received <input type="checkbox"></label>
+            <label id="completed-box">Completed <input type="checkbox"></label>
+
+        
+    </section>
+
+    <section>
+        <input id="name-input" type="text" placeholder="   Name">
         <input type="date" id="birthday" name="birthday">
 
        
@@ -27,7 +54,7 @@
             
             
         </select>
-        <div id="timer" class="timer">
+        <div id="timer-btn-style" class="timer">
             <p id="wait-timer" style=" display: inline; opacity: .5;">Wait Time</p>
         </div> 
        
@@ -38,6 +65,33 @@
         
     </section>
 
+    <section>
+        <input id="name-input" type="text" placeholder="   Name">
+        <input type="date" id="birthday" name="birthday">
+
+       
+        <select name="Office Name"> 
+            <option selected value="Choose" id="placeholder-txt"> Origin</option>
+            <option value="Ranu">Ranu's</option>
+            <option value="Ibarra">Ibarra's</option> 
+            <option value="CMC">Children's Clinic</option> 
+            <option value="Bautista">Bautista's</option> 
+            <option value="Dentist">Ocean Dental</option>
+            <option value="Other">Other</option> 
+            
+            
+            
+        </select>
+        <div id="timer-btn-style" class="timer">
+            <p id="wait-timer" style=" display: inline; opacity: .5;">Wait Time</p>
+        </div> 
+       
+
+            <label id="received-box">Received <input type="checkbox"></label>
+            <label id="completed-box">Completed <input type="checkbox"></label>
+
+        
+    </section>
 
 </body>
 </html>
