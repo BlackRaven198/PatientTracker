@@ -48,3 +48,8 @@ body {
     width: 100px;
     height: 100px;
   }
+
+  .test-color {
+    background-color: blue;
+    color: crimson;
+  }
