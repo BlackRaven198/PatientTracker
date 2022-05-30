@@ -18,10 +18,15 @@ console.log('test, test, test')
 // let timer = null;
 
 
-
+const originBtn = document.getElementById('timer-btn-style-1')
 
 function startTimer() {
     console.log('hello')
-    let btn = document.getElementById('timer-btn-1')
-    btn.classList.add('.timer')
+    
+    originBtn.classList.add('timer')
 }
+
+function myFunction() {
+    var element = document.getElementById("myDIV");
+    element.classList.add("mystyle");
+  }
